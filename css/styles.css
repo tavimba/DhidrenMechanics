@@ -1,0 +1,854 @@
+/* Variables */
+/* Fonts */
+@font-face {
+  font-family: nunito-body;
+  src: url(../fonts/nunito/NunitoSans-Light.ttf); }
+
+@font-face {
+  font-family: nunito-Bold;
+  src: url(../fonts/nunito/NunitoSans-Regular.ttf); }
+
+@font-face {
+  font-family: nunito-extra-bold;
+  src: url(../fonts/nunito/NunitoSans-ExtraBold.ttf); }
+
+/* line 37, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.navbar {
+  font-family: nunito-body, sans-serif; }
+
+/* line 42, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+p,
+li,
+a {
+  font-size: 14px;
+  font-family: nunito-body, sans-serif; }
+
+/* line 50, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+p {
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  line-height: 1.8; }
+
+/* line 57, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.light-para {
+  color: #e9e9e9; }
+
+/* line 61, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: nunito-bold, sans-serif;
+  color: #4d4d4d; }
+
+/* line 71, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+span {
+  font-family: nunito-body, sans-serif; }
+
+/* line 76, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.text-padding {
+  padding-left: 80px;
+  padding-right: 80px; }
+
+/* General styling */
+/* line 84, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+body {
+  overflow-x: hidden; }
+
+/* line 88, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.centre {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* line 96, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.left {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* line 104, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.right {
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* line 111, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.greyBg {
+  background-color: #e9e9e9; }
+
+/* line 115, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.container-fluid {
+  padding-left: 0px !important; }
+
+/* line 119, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.strip {
+  background-color: #010d21;
+  width: 100vw;
+  padding: 25px; }
+
+/* Buttons */
+/* line 132, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.btn {
+  font-size: 1px; }
+
+/* line 144, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.work-btn {
+  background-color: #010d21;
+  color: #e9e9e9;
+  border: 2px solid #010d21;
+  border-radius: 5px;
+  padding: 10px 35px 10px 35px !important;
+  font-size: 14px !important; }
+
+/* line 153, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.work-btn:hover {
+  background-color: #a7a7a7;
+  border-color: #a7a7a7;
+  color: #050505;
+  cursor: pointer; }
+
+/* line 162, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.home-btn {
+  background-color: #ffd527;
+  border-radius: 0px;
+  position: absolute;
+  top: 430px;
+  left: 50px;
+  border-radius: 5px;
+  padding: 10px 35px 10px 35px !important;
+  font-size: 14px !important; }
+
+/* Navbar */
+/* line 174, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.navbar {
+  background-color: #010d21; }
+  /* line 182, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .navbar .dropdown-menu {
+    background-color: #010d21; }
+    /* line 185, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+    .navbar .dropdown-menu .dropdown-item {
+      color: #e9e9e9; }
+    /* line 189, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+    .navbar .dropdown-menu .dropdown-item:hover {
+      background-color: #8B8BE0; }
+  /* line 194, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .navbar .nav-link {
+    font-size: 16px !important; }
+
+/* Loading Page */
+/* line 202, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.parallax {
+  background-image: url("../imgs/mainbg.png");
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+/* line 211, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.main-header {
+  position: absolute;
+  top: 310px;
+  left: 50px;
+  font-size: 55px;
+  font-family: nunito-extra-bold, sans-serif;
+  color: #ececec;
+  text-align: left; }
+
+/* line 221, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.semi-main-text {
+  color: #e9e9e9;
+  position: absolute;
+  top: 390px;
+  left: 50px; }
+
+/* line 231, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+  margin-top: 400px; }
+  /* line 236, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .arrow a {
+    color: white;
+    text-decoration: none; }
+
+/* line 242, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; }
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-15px); }
+  60% {
+    transform: translateY(-5px); } }
+
+/*--- About Section--*/
+/* line 271, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.title-margin-about {
+  margin: -15px 0 30px 0;
+  color: #050505; }
+
+/* line 276, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.aboutImg {
+  background-image: url(../imgs/femengine.jpg);
+  min-height: 100vh !important;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 284, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.jumbotron {
+  background-color: #010d21;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 0px; }
+
+/* line 292, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.sub-title {
+  font-family: nunito-body, sans-serif; }
+
+/* Services Section */
+/* line 297, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.services {
+  height: 588px;
+  background-color: #eaeaea;
+  padding-bottom: 10px; }
+  /* line 306, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .services .services-title {
+    padding-top: 10px; }
+  /* line 313, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .services .container {
+    background-color: transparent; }
+  /* line 318, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .services .card {
+    background-color: transparent; }
+
+/* line 327, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.card-title {
+  color: #272727; }
+
+/* line 333, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.card {
+  border: none; }
+
+/* line 339, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.card-title {
+  font-family: nunito-bold, sans-serif;
+  font-size: 19px; }
+
+/* line 345, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.card-img-top {
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 175px; }
+
+/* Our Work Section*/
+/* line 354, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.our-work {
+  background-color: #fff; }
+  /* line 357, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .our-work .col-md-6 {
+    padding: 0px; }
+
+/* line 362, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.work-padding {
+  padding: 545px; }
+
+/* line 366, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.work-title {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+/* line 372, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.title-margin-work {
+  margin: 50px 0 30px 0; }
+
+/* line 376, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.mySlides {
+  display: none; }
+
+/* line 381, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto; }
+  /* line 386, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .slideshow-container img {
+    vertical-align: middle;
+    height: 100vh; }
+
+/* line 393, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.slideshow-btn-padding {
+  margin-top: 30px;
+  margin-bottom: 50px; }
+
+/* line 399, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none; }
+
+/* line 415, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+/* line 420, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px; }
+
+/* line 426, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+/* line 431, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease; }
+
+/* line 442, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.dot:hover {
+  background-color: #717171; }
+
+/* line 446, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.fade {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s; }
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@media only screen and (max-width: 300px) {
+  /* line 466, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .prev,
+  .next,
+  .text {
+    font-size: 11px; } }
+
+/*---Services--*/
+/* line 478, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.grid {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 400px 400px 400px; }
+
+/* line 490, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA; }
+
+/*---Gallery--*/
+/* line 499, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.gallery-body {
+  background-color: #010d21; }
+
+/* line 503, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.rowe {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px; }
+
+/* Create four equal columns that sits next to each other */
+/* line 510, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  cursor: pointer; }
+
+/* line 517, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%; }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  /* line 528, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .column {
+    flex: 50%;
+    max-width: 50%; } }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  /* line 536, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .column {
+    flex: 100%;
+    max-width: 100%; } }
+
+/* line 556, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.carousel-inner {
+  padding: 0px; }
+
+/* line 562, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.carousel-item img {
+  height: 60vw;
+  object-fit: cover; }
+  @media (min-width: 576px) {
+    /* line 562, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+    .carousel-item img {
+      height: 350px; } }
+
+/* line 573, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+#exampleModal.custom .modal-content {
+  background: none;
+  border: none; }
+
+/* line 578, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+#exampleModal.custom .modal-header {
+  border: none;
+  background-color: transparent; }
+  /* line 582, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  #exampleModal.custom .modal-header button {
+    background: none;
+    border-radius: 100px 100px 0 0;
+    padding: 5px 10px;
+    opacity: 1;
+    position: relative;
+    top: 3px;
+    border: solid 2px white; }
+    @media (min-width: 992px) {
+      /* line 582, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+      #exampleModal.custom .modal-header button {
+        top: 15px; } }
+    /* line 595, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+    #exampleModal.custom .modal-header button:hover {
+      top: 3px; }
+  /* line 600, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  #exampleModal.custom .modal-header span {
+    color: white; }
+
+/* line 605, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+#exampleModal.custom .modal-content {
+  background-color: transparent; }
+
+/* line 609, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+#exampleModal.custom .modal-body {
+  padding: 1px !important;
+  border: none;
+  position: relative;
+  background-color: red; }
+  /* line 616, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  #exampleModal.custom .modal-body::before, #exampleModal.custom .modal-body::after {
+    content: '';
+    height: 520px;
+    width: 520px;
+    display: block;
+    position: absolute;
+    background: transparent;
+    border-radius: 3px 10px; }
+    @media (min-width: 768px) {
+      /* line 616, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+      #exampleModal.custom .modal-body::before, #exampleModal.custom .modal-body::after {
+        border-radius: 3px 30px;
+        height: 100px;
+        width: 100px; } }
+  /* line 633, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  #exampleModal.custom .modal-body::before {
+    top: -5px;
+    left: -5px; }
+    @media (min-width: 768px) {
+      /* line 633, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+      #exampleModal.custom .modal-body::before {
+        top: -15px;
+        left: -15px; } }
+  /* line 643, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  #exampleModal.custom .modal-body::after {
+    bottom: -5px;
+    right: -5px;
+    z-index: -1; }
+    @media (min-width: 768px) {
+      /* line 643, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+      #exampleModal.custom .modal-body::after {
+        bottom: -15px;
+        right: -15px; } }
+
+/* line 655, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+#exampleModal.custom .modal-footer {
+  border: none;
+  margin-top: 60px; }
+  @media (min-width: 992px) {
+    /* line 655, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+    #exampleModal.custom .modal-footer {
+      margin-top: 40px; } }
+  /* line 663, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  #exampleModal.custom .modal-footer .btn {
+    margin: auto;
+    border: solid 2px white;
+    background: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    padding: 0.2em 0.7em; }
+    /* line 673, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+    #exampleModal.custom .modal-footer .btn:hover {
+      background: white;
+      color: black; }
+
+/* line 681, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 2em;
+  top: auto;
+  opacity: 1;
+  bottom: -52px; }
+  @media (min-width: 768px) {
+    /* line 681, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+    .carousel-control-prev,
+    .carousel-control-next {
+      top: 0;
+      opacity: 0.5;
+      bottom: 0; } }
+
+/* line 697, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.header-title {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+/* line 702, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.blue-bg {
+  background-color: #010d21; }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  /* line 710, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .modal-content {
+    width: 100%; } }
+
+/* line 718, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 728, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: ''; }
+
+/* line 734, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 739, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+input:focus,
+textarea:focus,
+keygen:focus,
+select:focus {
+  outline: none; }
+
+/* line 746, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+::-moz-placeholder {
+  color: #666;
+  font-weight: 300;
+  opacity: 1; }
+
+/* line 752, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+::-webkit-input-placeholder {
+  color: #666;
+  font-weight: 300; }
+
+/*  Form Styling */
+/* line 760, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.contact .container-fluid {
+  background-color: #010d21; }
+
+/* line 765, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.contact p {
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 772, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.light-title {
+  color: #a2a2a2 !important; }
+
+/* line 776, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.textcenter {
+  text-align: center; }
+
+/* line 780, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section1 {
+  text-align: center;
+  display: table;
+  width: 100%; }
+
+/* line 786, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section1 .shtext {
+  display: block;
+  margin-top: 20px; }
+
+/* line 797, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+hr {
+  border-bottom: 2px solid #666666;
+  width: 45px;
+  margin-top: 0px !important; }
+
+/* line 803, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section1 h1 {
+  font-size: 40px;
+  color: #e9e9e9;
+  font-weight: normal; }
+
+/* line 809, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 {
+  width: 1200px;
+  margin: 25px auto; }
+
+/* line 814, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .col1 {
+  width: 100%; }
+
+/* line 819, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .col2 {
+  width: 48.71%; }
+
+/* line 823, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .col2.first {
+  float: left; }
+
+/* line 827, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .col2.last {
+  float: right; }
+
+/* line 831, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .col2.column2 {
+  padding: 0 30px; }
+
+/* line 835, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 span.collig {
+  color: #a2a2a2;
+  margin-right: 10px;
+  display: inline-block; }
+
+/* line 841, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.fa-envelope,
+.fa-phone,
+.fa-marker {
+  color: #ffe000;
+  height: 20px;
+  width: 20px; }
+
+/* line 849, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .sec2addr {
+  display: block;
+  line-height: 26px; }
+
+/* line 854, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .sec2addr p:first-child {
+  margin-bottom: 10px; }
+
+/* line 858, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .sec2contactform input[type="text"],
+.section2 .sec2contactform input[type="email"],
+.section2 .sec2contactform textarea {
+  padding: 18px;
+  border: 0;
+  background: #EDEDED;
+  margin: 7px 0; }
+
+/* line 867, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .sec2contactform textarea {
+  width: 100%;
+  display: block;
+  color: #666;
+  resize: none; }
+
+/* line 874, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .sec2contactform input[type="submit"] {
+  padding: 15px 40px;
+  color: #fff;
+  border: 0;
+  background: #A44DD8;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 7px 0;
+  cursor: pointer; }
+
+/* line 885, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.section2 .sec2contactform h3 {
+  font-weight: normal;
+  margin: 20px 0;
+  margin-top: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 19px;
+  color: #e9e9e9; }
+
+/* @media querries */
+@media only screen and (max-width: 1266px) {
+  /* line 897, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .section2 {
+    width: 100%; } }
+
+@media only screen and (max-width: 960px) {
+  /* line 903, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .container {
+    padding: 0 30px 70px; }
+  /* line 907, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .section2 .col2 {
+    width: 100%;
+    display: block; }
+  /* line 912, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .section2 .col2.first {
+    margin-bottom: 10px; }
+  /* line 916, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .section2 .col2.column2 {
+    padding: 0; }
+  /* line 920, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  body .sec2map {
+    height: 250px !important; } }
+
+@media only screen and (max-width: 768px) {
+  /* line 926, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .section2 .sec2addr {
+    font-size: 14px; }
+  /* line 930, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .section2 .sec2contactform h3 {
+    font-size: 16px; }
+  /* line 934, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .section2 .sec2contactform input[type="text"],
+  .section2 .sec2contactform input[type="email"],
+  .section2 .sec2contactform textarea {
+    padding: 10px;
+    margin: 3px 0; }
+  /* line 941, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .section2 .sec2contactform input[type="submit"] {
+    padding: 10px 30px;
+    font-size: 14px; } }
+
+/* line 947, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 490px;
+  width: 576px; }
+
+/* line 954, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 490px;
+  width: 576px; }
+
+/* line 962, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+iframe {
+  width: 100%;
+  height: 100%; }
+
+@media only screen and (max-width: 420px) {
+  /* line 968, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .section1 h1 {
+    font-size: 28px; } }
+
+/* line 974, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+footer {
+  padding-top: 20px;
+  margin-top: -25px;
+  background-color: #0e0e0e;
+  color: #e9e9e9;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center; }
+
+@media only screen and (max-width: 576px) {
+  /* line 992, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .gmap_canvas,
+  .mapouter {
+    height: 350px;
+    width: 400px; }
+  /* line 999, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .card-img-top {
+    padding-left: 65px;
+    padding-right: 65px;
+    height: 215px; }
+  /* line 1005, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .aboutImg {
+    min-height: 50vh !important; }
+  /* line 1010, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .aboutSect {
+    background-color: #010d21;
+    color: #e9e9e9; }
+  /* line 1015, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .title-margin-about {
+    margin: 25px 0 30px 0;
+    color: #e9e9e9; }
+  /* line 1022, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .slideshow-container img {
+    vertical-align: middle;
+    height: 50vh; } }
+
+@media only screen and (max-width: 1010px) {
+  /* line 1036, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .slideshow-container img {
+    height: 60vh; }
+  /* line 1042, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .aboutImg {
+    height: 60vh; }
+  /* line 1047, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .title-margin-about {
+    margin: 15px 0 30px 0; }
+  /* line 1051, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+  .aboutSect,
+  .title-margin-about {
+    background-color: #010d21;
+    color: #e9e9e9; } }
+
+/* line 1058, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.column img {
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: gray;
+  /* IE5+ */
+  -webkit-filter: grayscale(1);
+  /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .5s ease-in-out; }
+
+/* line 1067, ../../Users/tavim/OneDrive/Documents/Vimba-Tech Clients/Dhren Mechanics/css/styles.scss */
+.column img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1); }
+
+/*# sourceMappingURL=styles.css.map */
